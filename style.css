@@ -73,7 +73,7 @@ h1 {
             padding: 0;
         }
 button:hover{
-    background-color: rgb(255, 224, 196);
+    background-color: rgb(216, 107, 12);
 }
 ul{
     list-style: none;
@@ -88,7 +88,7 @@ li{
     justify-content: space-between;
     border-radius: 5px;
     box-shadow: 12px 12px 10px gray;
-    border:  1px solid skyblue;
+    border:  1px solid rgb(164, 153, 129);
     background-color: skyblue;
     padding: 8px;
    width: 80%;
