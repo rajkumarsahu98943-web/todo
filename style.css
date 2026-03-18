@@ -1,0 +1,112 @@
+body{
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.container{
+    
+    
+    position: relative;
+    top: 50px;
+    width: 1000px;
+    text-align: center;
+    box-shadow:  5px 5px 10px gray;
+    
+   
+    
+    border-radius: 5px;
+    background-color: #87bdd8;
+
+}
+h1 {
+            text-align: center;
+            font-size: 43px;
+             font-family: "Pacifico", cursive;
+            color: transparent;
+            background: linear-gradient(90deg, rgba(255, 0, 0, 1) 0%,
+             rgba(238, 100, 10, 1) 7%,
+    rgba(210, 169, 39, 1) 14%,
+    rgba(234, 252, 62, 1) 21%,
+    rgba(134, 248, 82, 1) 28%,
+    rgba(99, 245, 156, 1) 35%,
+    rgba(87, 241, 215, 1) 42%,
+    rgba(75, 216, 237, 1) 49%,
+    rgba(66, 158, 239, 1) 56%,
+    rgba(57, 74, 241, 1) 63%,
+    rgba(126, 45, 244, 1) 70%,
+    rgba(162, 84, 247, 1) 77%,
+    rgba(229, 117, 249, 1) 84%,
+    rgba(251, 103, 164, 1) 91%,
+    rgba(253, 127, 190, 1) 97%,
+    rgba(255, 0, 191, 1) 100%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  background-size: 500%;
+  animation: color 4s linear infinite;
+        }
+
+        input {
+            width: 65%;
+            padding: 8px;
+            height: 36px;
+    border-radius: 9px;
+    border-block-color: white;
+    font-size: 20px;
+    box-shadow:  5px 5px 10px gray;
+        }
+
+        button {
+            padding: 19px;
+            background: #f9e79f;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+            box-shadow:  5px 5px 10px gray;
+
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+button:hover{
+    background-color: rgb(197, 255, 196);
+}
+ul{
+    list-style: none;
+    padding: 15px;
+   
+}
+
+li{
+ 
+    color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 5px;
+    box-shadow: 12px 12px 10px gray;
+    border:  1px solid skyblue;
+    background-color: skyblue;
+    padding: 8px;
+   width: 80%;
+    margin: 10px auto;
+}
+.task-name {
+    font-weight: bold;
+    flex: 1;
+}
+.task-name {
+    font-weight: 900;      /* Extra bold */
+    font-size: 20px;       /* Bigger text */
+    color: #ffffff;        /* White text */
+    flex: 1;
+}
+strong{
+    font-family: cursive;
+    font-size: 52px;
+    color: white
+}
+        
